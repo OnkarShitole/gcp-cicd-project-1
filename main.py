@@ -8,4 +8,7 @@ def hello_gcs(event, context):
     file_name = event['name']
     bucket_name = event['bucket']
 
+    print(f"File successfully uploaded.")
+
+
     print(f"File {file_name} uploaded to bucket {bucket_name}.")
